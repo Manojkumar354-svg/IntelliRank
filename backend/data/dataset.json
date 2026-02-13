@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "title": "Scalable Microservices with FastAPI",
+    "category": "Technical",
+    "content": "Designing high-throughput backend systems using FastAPI and Python. Includes patterns for asynchronous request handling, dependency injection, and horizontal scaling in distributed environments."
+  },
+  {
+    "id": 2,
+    "title": "Kubernetes Orchestration Patterns",
+    "category": "Cloud",
+    "content": "Advanced container management using Kubernetes. Covers deployment strategies like Canary and Blue-Green, auto-scaling, and managing persistent volumes for stateful applications."
+  },
+  {
+    "id": 3,
+    "title": "Inventory Management at Scale",
+    "category": "Retail",
+    "content": "A high-performance system designed for real-time inventory tracking across global warehouses. Employs event-driven architecture and cache-aside patterns to ensure data consistency and low latency."
+  },
+  {
+    "id": 4,
+    "title": "Semantic Search & NLP Foundations",
+    "category": "AI",
+    "content": "Implementing search systems that understand user intent. Leverages TF-IDF, cosine similarity, and word embeddings to deliver relevant results beyond simple keyword matching."
+  },
+  {
+    "id": 5,
+    "title": "Sony WH-1000XM5 Wireless Headphones",
+    "category": "Retail",
+    "content": "Premium noise-canceling headphones featuring the Integrated Processor V1. Delivers industry-leading sound quality, crystal clear calls, and up to 30 hours of battery life."
+  },
+  {
+    "id": 6,
+    "title": "Enterprise Workflow Automation",
+    "category": "Technical",
+    "content": "Building automated pipeline systems to streamline business operations. Integrates multiple third-party APIs with robust error handling and transaction management."
+  },
+  {
+    "id": 7,
+    "title": "Database Performance Tuning",
+    "category": "Technical",
+    "content": "Optimization techniques for PostgreSQL and NoSQL databases. Focuses on advanced indexing, query planning, and connection pooling for high-traffic enterprise applications."
+  },
+  {
+    "id": 8,
+    "title": "Docker Multi-Stage Build Optimization",
+    "category": "Cloud",
+    "content": "Best practices for creating slim, secure container images. Use multi-stage builds to separate build environments from runtime images, reducing the attack surface and deployment time."
+  },
+  {
+    "id": 9,
+    "title": "Apple MacBook Pro M3 Max",
+    "category": "Retail",
+    "content": "The ultimate workstation for software engineers. Features the M3 Max chip with 16-core CPU and 40-core GPU, Liquid Retina XDR display, and up to 128GB of unified memory."
+  },
+  {
+    "id": 10,
+    "title": "Real-time Analytics Dashboard",
+    "category": "AI",
+    "content": "Developing interactive visualization tools for large datasets. Processes millions of events per second and presents actionable insights using modern frontend frameworks."
+  },
+  {
+    "id": 11,
+    "title": "Distributed Caching Strategies",
+    "category": "Technical",
+    "content": "Implementing Redis clusters for global-scale application caching. Discusses eviction policies, data sharding, and high-availability configurations for resilient backend services."
+  },
+  {
+    "id": 12,
+    "title": "CI/CD Pipeline Security",
+    "category": "Cloud",
+    "content": "Securing the software delivery lifecycle. Integrates static analysis, secret management, and vulnerability scanning into automated deployment workflows."
+  },
+  {
+    "id": 13,
+    "title": "Logitech MX Master 3S Mouse",
+    "category": "Retail",
+    "content": "An iconic ergonomic wireless mouse designed for elite precision. Features quiet clicks, 8K DPI tracking on any surface, and MagSpeed electromagnetic scrolling."
+  },
+  {
+    "id": 14,
+    "title": "Machine Learning Model Deployment",
+    "category": "AI",
+    "content": "Techniques for moving ML models from research to production. Covers model versioning, A/B testing, and serving models via low-latency RESTful endpoints."
+  },
+  {
+    "id": 15,
+    "title": "Supply Chain Visibility Platform",
+    "category": "Retail",
+    "content": "Comprehensive tracking software for global logistics. Uses IoT data and predictive analytics to minimize transit delays and optimize storage costs."
+  },
+  {
+    "id": 16,
+    "title": "System Design Patterns for High Availability",
+    "category": "Technical",
+    "content": "A deep dive into building systems that never go down. Explores circuit breakers, bulkheads, and load balancing across multiple availability zones."
+  },
+  {
+    "id": 17,
+    "title": "Google Cloud Run for Serverless Apps",
+    "category": "Cloud",
+    "content": "Deploying containerized applications on a fully managed serverless platform. Scale automatically based on traffic and pay only for actual resource usage."
+  },
+  {
+    "id": 18,
+    "title": "SteelSeries Arctis Nova Pro Wireless",
+    "category": "Retail",
+    "content": "High-fidelity gaming headset with active noise cancellation. Features a dual-battery swapping system for infinite battery life and a multi-system connect hub."
+  },
+  {
+    "id": 19,
+    "title": "Natural Language Generation Systems",
+    "category": "AI",
+    "content": "Exploring the architecture of modern LLMs. Discusses prompt engineering, fine-tuning for specific domains, and ethical AI deployment strategies."
+  },
+  {
+    "id": 20,
+    "title": "E-commerce Payment Gateway Integration",
+    "category": "Retail",
+    "content": "Implementing secure and PCI-compliant payment processing. Supports multiple currencies, subscriptions, and automated reconciliation for global storefronts."
+  },
+  {
+    "id": 21,
+    "title": "Java Spring Boot Microservices",
+    "category": "Technical",
+    "content": "Enterprise-grade service development using Spring Boot and Spring Cloud. Covers service discovery, configuration management, and centralized logging."
+  },
+  {
+    "id": 22,
+    "title": "AWS Lambda Performance Tuning",
+    "category": "Cloud",
+    "content": "Optimizing cold starts and execution time for serverless functions. Includes memory allocation strategies, provisioned concurrency, and efficient code packaging."
+  },
+  {
+    "id": 23,
+    "title": "Bose QuietComfort Ultra Earbuds",
+    "category": "Retail",
+    "content": "Cutting-edge spatial audio and world-class noise cancellation in a compact design. Features CustomTune technology for sound personalized to your ears."
+  },
+  {
+    "id": 24,
+    "title": "Computer Vision for Quality Control",
+    "category": "AI",
+    "content": "Automating industrial inspections using deep learning. Detects manufacturing defects in real-time with higher accuracy than human inspectors."
+  },
+  {
+    "id": 25,
+    "title": "Dynamic Pricing Engine",
+    "category": "Retail",
+    "content": "A retail scaling service that adjusts prices in real-time based on demand, competitor activity, and stock levels using machine learning models."
+  },
+  {
+    "id": 26,
+    "title": "API Gateway Design Principles",
+    "category": "Technical",
+    "content": "Consolidating multiple microservices behind a single entry point. Handles authentication, rate limiting, and response caching for uniform API access."
+  },
+  {
+    "id": 27,
+    "title": "Azure Kubernetes Service (AKS) Setup",
+    "category": "Cloud",
+    "content": "Managed Kubernetes on Microsoft Azure. Simplifies deployment, management, and scaling of containerized applications with integrated monitoring."
+  },
+  {
+    "id": 28,
+    "title": "Dell XPS 15 Laptop",
+    "category": "Retail",
+    "content": "The perfect balance of power and portability. Features a 13th Gen Intel Core i9 processor, stunning OLED display, and premium carbon fiber interior."
+  },
+  {
+    "id": 29,
+    "title": "Recommendation Systems Architecture",
+    "category": "AI",
+    "content": "Building personalized discovery engines. Combines collaborative filtering and content-based approaches to increase user engagement and sales."
+  },
+  {
+    "id": 30,
+    "title": "Modern Warehouse Management System (WMS)",
+    "category": "Retail",
+    "content": "Cloud-native platform for optimizing order fulfillment. Directs staff and robots for efficient picking, packing, and shipping in high-volume environments."
+  },
+  {
+    "id": 31,
+    "title": "Elasticsearch for Log Analytics",
+    "category": "Technical",
+    "content": "Implementing a centralized logging stack. Uses Elasticsearch, Logstash, and Kibana (ELK) to provide real-time visibility into system health and user behavior."
+  },
+  {
+    "id": 32,
+    "title": "Terraform Infrastructure as Code",
+    "category": "Cloud",
+    "content": "Provisioning multi-cloud resources using a declarative language. Version control your infrastructure to ensure consistency across dev, staging, and production."
+  },
+  {
+    "id": 33,
+    "title": "Kindle Paperwhite E-reader",
+    "category": "Retail",
+    "content": "The best-selling e-reader with a 6.8 inch display and thinner borders. Features adjustable warm light, up to 10 weeks of battery life, and 20% faster page turns."
+  },
+  {
+    "id": 34,
+    "title": "Fraud Detection in Fintech",
+    "category": "AI",
+    "content": "Protecting financial transactions using anomaly detection. Identifies suspicious patterns in milliseconds to prevent unauthorized account access and theft."
+  },
+  {
+    "id": 35,
+    "title": "Global Content Delivery Networks (CDN)",
+    "category": "Retail",
+    "content": "Reducing latency for worldwide users by caching media at the edge. Essential for retail sites with high-resolution imagery and video."
+  },
+  {
+    "id": 36,
+    "title": "Event-Driven Microservices with Kafka",
+    "category": "Technical",
+    "content": "Decoupling services using a high-throughput messaging system. Discusses producers, consumers, and stream processing for real-time data pipelines."
+  },
+  {
+    "id": 37,
+    "title": "Prometheus & Grafana Observability",
+    "category": "Cloud",
+    "content": "Monitoring cloud-native applications. Collect metrics with Prometheus and build interactive dashboards with Grafana to visualize system performance."
+  },
+  {
+    "id": 38,
+    "title": "Nintendo Switch OLED Model",
+    "category": "Retail",
+    "content": "The latest edition of the iconic gaming console. Features a vibrant 7-inch OLED screen, a wide adjustable stand, and a wired LAN port in the dock."
+  },
+  {
+    "id": 39,
+    "title": "Reinforcement Learning for Trading",
+    "category": "AI",
+    "content": "Applying autonomous agents to financial markets. Trains models to make profitable trading decisions by optimizing long-term reward signals."
+  },
+  {
+    "id": 40,
+    "title": "Omnichannel Retail Strategy",
+    "category": "Retail",
+    "content": "Unifying the shopping experience across online and physical stores. Syncs inventory, loyalty programs, and pricing for a seamless customer journey."
+  },
+  {
+    "id": 41,
+    "title": "Identity & Access Management (IAM)",
+    "category": "Technical",
+    "content": "Securing enterprise resources with fine-grained permissions. Implements Zero Trust principles, multi-factor authentication, and centralized user directories."
+  },
+  {
+    "id": 42,
+    "title": "Serverless Data Processing with AWS",
+    "category": "Cloud",
+    "content": "Building scalable ETL pipelines without managing infrastructure. Uses AWS Glue, Athena, and Step Functions for automated data transformation."
+  },
+  {
+    "id": 43,
+    "title": "Dyson V15 Detect Vacuum",
+    "category": "Retail",
+    "content": "Intelligent cordless cleaning. Features a laser that reveals invisible dust, a piezo sensor that counts particles, and up to 60 minutes of fade-free power."
+  },
+  {
+    "id": 44,
+    "title": "Speech-to-Text Transcription Services",
+    "category": "AI",
+    "content": "Converting audio to structured text with high accuracy. Supports multiple languages, speaker diarization, and real-time streaming for meetings."
+  },
+  {
+    "id": 45,
+    "title": "Customer Relationship Management (CRM)",
+    "category": "Retail",
+    "content": "Enterprise software for managing all company's interactions with current and potential customers. Improves sales, service, and marketing ROI."
+  },
+  {
+    "id": 46,
+    "title": "RESTful API Best Practices",
+    "category": "Technical",
+    "content": "Guidelines for designing intuitive and maintainable APIs. Covers resource naming, versioning, pagination, and standardized error responses."
+  },
+  {
+    "id": 47,
+    "title": "Multi-Region Cloud Deployment",
+    "category": "Cloud",
+    "content": "Architecting global applications for fault tolerance. Synchronize data across continents and use geo-routing to direct users to the nearest healthy instance."
+  },
+  {
+    "id": 48,
+    "title": "Sennheiser HD 600 Open-Back Headphones",
+    "category": "Retail",
+    "content": "A classic choice for audiophiles. These open-back reference headphones provide natural, detailed sound and exceptional comfort for long listening sessions."
+  },
+  {
+    "id": 49,
+    "title": "Sentiment Analysis for Brands",
+    "category": "AI",
+    "content": "Monitoring social media and reviews to gauge public opinion. Uses deep learning to classify text as positive, negative, or neutral for reputation management."
+  },
+  {
+    "id": 50,
+    "title": "Hyper-Personalization in E-commerce",
+    "category": "Retail",
+    "content": "Tailoring every aspect of the shopping experience to the individual. Dynamic homepage layouts and localized marketing based on user behavior."
+  },
+  {
+    "id": 51,
+    "title": "Web Security & OWASP Top 10",
+    "category": "Technical",
+    "content": "Hardening applications against common vulnerabilities. Discusses SQL injection, cross-site scripting (XSS), and broken authentication defense mechanisms."
+  },
+  {
+    "id": 52,
+    "title": "Automated Chaos Engineering",
+    "category": "Cloud",
+    "content": "Testing system resilience by intentionally injecting failures. Uses tools like Chaos Mesh or Gremlin to uncover hidden weaknesses in production."
+  },
+  {
+    "id": 53,
+    "title": "KitchenAid Artisan Stand Mixer",
+    "category": "Retail",
+    "content": "A timeless kitchen essential. This 5-quart mixer features a tilt-head design and includes multiple attachments for baking, mixing, and kneading."
+  },
+  {
+    "id": 54,
+    "title": "Financial Forecasting with Time Series",
+    "category": "AI",
+    "content": "Predicting future trends using historical data. Employs ARIMA, Prophet, and LSTM models to forecast revenue, inventory needs, and market shifts."
+  },
+  {
+    "id": 55,
+    "title": "Last-Mile Delivery Optimization",
+    "category": "Retail",
+    "content": "Software for managing the final step of the logistics chain. Optimizes routes for drivers and provides real-time tracking for customers."
+  },
+  {
+    "id": 56,
+    "title": "Graph Database Use Cases",
+    "category": "Technical",
+    "content": "Handling complex relationships with Neo4j. Ideal for social networks, fraud detection, and knowledge graphs where connections are as important as data."
+  },
+  {
+    "id": 57,
+    "title": "Cloud Migration Roadmap",
+    "category": "Cloud",
+    "content": "A strategic guide for moving enterprise workloads to the cloud. Discusses rehosting, refactoring, and re-platforming based on business needs."
+  },
+  {
+    "id": 58,
+    "title": "GoPro HERO12 Black Camera",
+    "category": "Retail",
+    "content": "The ultimate action camera. Features 5.3K video, HyperSmooth 6.0 stabilization, and best-in-class image quality for capturing every adventure."
+  },
+  {
+    "id": 59,
+    "title": "AI-Powered Customer Support Chatbots",
+    "category": "AI",
+    "content": "Automating routine inquiries with natural language understanding. Integrates with knowledge bases to provide instant, meaningful answers 24/7."
+  },
+  {
+    "id": 60,
+    "title": "Point of Sale (POS) Modernization",
+    "category": "Retail",
+    "content": "Equipping brick-and-mortar stores with mobile and cloud-ready checkout systems. Supports contactless payments and real-time inventory sync."
+  },
+  {
+    "id": 61,
+    "title": "Site Reliability Engineering (SRE) Core Class",
+    "category": "Technical",
+    "content": "Applying software engineering principles to infrastructure and operations. Focuses on error budgets, SLOs, and incident response automation."
+  },
+  {
+    "id": 62,
+    "title": "Hybrid Cloud Infrastructure Design",
+    "category": "Cloud",
+    "content": "Combining on-premises data centers with public cloud services. Provides flexibility, security, and scalability for enterprise workloads."
+  },
+  {
+    "id": 63,
+    "title": "Nespresso Vertuo Coffee Maker",
+    "category": "Retail",
+    "content": "Brewing perfect coffee and espresso with a single touch. Uses Centrifusion technology to read barcodes on capsules and adjust brewing parameters."
+  },
+  {
+    "id": 64,
+    "title": "Deep Learning for Product Classification",
+    "category": "AI",
+    "content": "Automatically categorizing millions of products using image and text analysis. Ensures accurate search and discovery in large-scale retail sites."
+  },
+  {
+    "id": 65,
+    "title": "Global Loyalty & Rewards Platform",
+    "category": "Retail",
+    "content": "incentivizing repeat purchases across multiple channels. Tracks points, offers personalized discounts, and manages tier-based membership benefits."
+  },
+  {
+    "id": 66,
+    "title": "Message Queue Patterns for Decoupling",
+    "category": "Technical",
+    "content": "Using RabbitMQ or SQS to build resilient systems. Handles spike in demand by buffering requests and processing them asynchronously."
+  },
+  {
+    "id": 67,
+    "title": "Infrastructure Monitoring with Datadog",
+    "category": "Cloud",
+    "content": "A unified platform for full-stack observability. Correlate metrics, traces, and logs across cloud providers and containers for rapid debugging."
+  },
+  {
+    "id": 68,
+    "title": "Fitbit Charge 6 Fitness Tracker",
+    "category": "Retail",
+    "content": "Advanced health tracking on your wrist. Features 40+ exercise modes, built-in GPS, heart rate monitoring, and stress management tools."
+  },
+  {
+    "id": 69,
+    "title": "Knowledge Graph Construction",
+    "category": "AI",
+    "content": "Representing domain knowledge as a network of connected concepts. Powers intelligent search and discovery in enterprise documentation."
+  },
+  {
+    "id": 70,
+    "title": "B2B Marketplace Platform Design",
+    "category": "Retail",
+    "content": "Scaling software for business-to-business commerce. Handles complex pricing, bulk orders, and specialized taxation for commercial transactions."
+  },
+  {
+    "id": 71,
+    "title": "Unit Testing & TDD Frameworks",
+    "category": "Technical",
+    "content": "Developing robust code through Test-Driven Development. Modern frameworks for Python (pytest), Java (JUnit), and JS (Jest) explained."
+  },
+  {
+    "id": 72,
+    "title": "Container Security Best Practices",
+    "category": "Cloud",
+    "content": "Protecting containerized workloads. Discusses image scanning, runtime security monitoring, and securing the container orchestration plane."
+  },
+  {
+    "id": 73,
+    "title": "Sonos Era 300 Smart Speaker",
+    "category": "Retail",
+    "content": "Revolutionary spatial audio with Dolby Atmos. Dives you into the heart of your music with immersive sound from every direction."
+  },
+  {
+    "id": 74,
+    "title": "Anomaly Detection in System Logs",
+    "category": "AI",
+    "content": "Automatically identifying unusual system behavior. Uses unsupervised learning to detect potential bugs or security breaches before they cause outages."
+  },
+  {
+    "id": 75,
+    "title": "Augmented Reality (AR) Shopping",
+    "category": "Retail",
+    "content": "Enabling customers to visualize products in their own space. Increases conversion and reduces returns by showing how furniture or clothes fit."
+  },
+  {
+    "id": 73,
+    "title": "Clean Code and SOLID Principles",
+    "category": "Technical",
+    "content": "Writing maintainable, readable, and flexible software. Explains core architectural concepts that guide professional development teams."
+  },
+  {
+    "id": 77,
+    "title": "GitFlow & Branching Strategies",
+    "category": "Cloud",
+    "content": "Managing collaborative software development with Git. Covers release management, feature branches, and hotfix workflows for stable delivery."
+  },
+  {
+    "id": 78,
+    "title": "Philips Hue Smart Lighting Starter Kit",
+    "category": "Retail",
+    "content": "Transform your home with smart lighting. Control lights via app or voice, set schedules, and create the perfect ambiance for any occasion."
+  },
+  {
+    "id": 79,
+    "title": "Transfer Learning for Niche Domains",
+    "category": "AI",
+    "content": "Adapting pre-trained AI models for specific business tasks. Reduces the need for massive datasets while maintaining high accuracy for niche applications."
+  },
+  {
+    "id": 80,
+    "title": "Enterprise Resource Planning (ERP)",
+    "category": "Retail",
+    "content": "Integrated management of main business processes. Connects Finance, HR, Manufacturing, and Sales into a single source of truth."
+  },
+  {
+    "id": 81,
+    "title": "High-Performance API Client Libraries",
+    "category": "Technical",
+    "content": "Building SDKs that developers love. Focuses on ease of use, robust retry logic, and asynchronous execution for high-frequency API calls."
+  },
+  {
+    "id": 82,
+    "title": "Auto-scaling Strategies in AWS",
+    "category": "Cloud",
+    "content": "Dynamically adjusting resource capacity. Uses predictive scaling and custom metrics to maintain performance while minimizing cloud costs."
+  },
+  {
+    "id": 83,
+    "title": "AirPods Pro Gen 2",
+    "category": "Retail",
+    "content": "Exceptional audio performance and advanced noise cancellation. Features transparency mode, personalized spatial audio, and MagSafe charging."
+  },
+  {
+    "id": 84,
+    "title": "Image Recognition for Visual Search",
+    "category": "AI",
+    "content": "Allowing users to search by uploading a photo. Uses convolutional neural networks to identify products and find similar items in stock."
+  },
+  {
+    "id": 85,
+    "title": "Return Management Automation",
+    "category": "Retail",
+    "content": "Streamlining the reverse logistics process. Self-service portals and automated label generation to improve customer satisfaction and reduce costs."
+  },
+  {
+    "id": 86,
+    "title": "Domain-Driven Design (DDD) Workshop",
+    "category": "Technical",
+    "content": "Tackling complexity in the heart of software. Defines bounded contexts and ubiquitous language to align technical and business models."
+  },
+  {
+    "id": 87,
+    "title": "Azure DevOps for Agile Teams",
+    "category": "Cloud",
+    "content": "A complete toolset for software delivery. Includes Boards for planning, Repos for code, Pipelines for CI/CD, and Artifacts for package management."
+  },
+  {
+    "id": 88,
+    "title": "Google Pixel 8 Pro Smartphone",
+    "category": "Retail",
+    "content": "The most powerful Pixel yet. Features Google's advanced AI, an incredible camera system, and a vibrant 6.7-inch Super Actua display."
+  },
+  {
+    "id": 89,
+    "title": "Conversational AI and Voice Assistants",
+    "category": "AI",
+    "content": "Building voice-first experiences. Discusses automatic speech recognition (ASR), intent interpretation, and text-to-speech (TTS) synthesis."
+  },
+  {
+    "id": 90,
+    "title": "Warehouse Robotics Integration",
+    "category": "Retail",
+    "content": "Software for orchestrating autonomous mobile robots. Increases picking speed and accuracy in high-density e-commerce fulfillment centers."
+  },
+  {
+    "id": 91,
+    "title": "Full-Stack Observability Guide",
+    "category": "Technical",
+    "content": "Connecting the dots between user experience and infrastructure. Correlate frontend performance with backend traces and server metrics."
+  },
+  {
+    "id": 92,
+    "title": "Blue-Green Deployment on GCP",
+    "category": "Cloud",
+    "content": "Zero-downtime application updates. Reduce risk by running two identical environments and switching traffic only after thorough testing."
+  },
+  {
+    "id": 93,
+    "title": "Ring Video Doorbell Pro 2",
+    "category": "Retail",
+    "content": "Premium wired doorbell with head-to-toe HD+ video. Features 3D motion detection, built-in Alexa greetings, and clear two-way talk."
+  },
+  {
+    "id": 94,
+    "title": "Active Learning for Data Labeling",
+    "category": "AI",
+    "content": "Optimizing the human-in-the-loop process. Identifies the most impactful data points for humans to label, accelerating model training."
+  },
+  {
+    "id": 95,
+    "title": "Dropshipping & Marketplace Scaling",
+    "category": "Retail",
+    "content": "Scaling product variety without inventory risk. Technology for managing third-party seller integrations and direct-to-customer fulfillment."
+  },
+  {
+    "id": 93,
+    "title": "Event Sourcing Architecture",
+    "category": "Technical",
+    "content": "Persisting application state as a sequence of events. Provides a perfect audit trail and the ability to rebuild system state at any point in time."
+  },
+  {
+    "id": 97,
+    "title": "Infrastructure as Code with Pulumi",
+    "category": "Cloud",
+    "content": "Managing cloud resources using familiar programming languages. Use Python, JavaScript, or Go to define and deploy complex infrastructure."
+  },
+  {
+    "id": 98,
+    "title": "Garmin Fenix 7 Pro GPS Watch",
+    "category": "Retail",
+    "content": "The ultimate multisport GPS watch. Designed for athletes and adventurers with solar charging, heart rate monitoring, and advanced training metrics."
+  },
+  {
+    "id": 99,
+    "title": "Large Model Optimization (Quantization)",
+    "category": "AI",
+    "content": "Reducing the footprint of AI models for edge deployment. Techniques like quantization and pruning to enable high-performance inference on mobile devices."
+  },
+  {
+    "id": 100,
+    "title": "Click-and-Collect (BOPIS) Systems",
+    "category": "Retail",
+    "content": "Technology for enabling 'buy online, pick up in store'. Connects web storefronts with local inventory for fast, convenient customer pickup."
+  }
+]

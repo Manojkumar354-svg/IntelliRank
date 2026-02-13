@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+backend/app/core/__pycache__/
+
+# Node
+node_modules/
+dist/
+dist-ssr
+*.local
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
