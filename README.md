@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # IntelliRank v5.0 – Mega-Dataset Semantic Search
 
 IntelliRank v5.0 is a professional-grade semantic retrieval ecosystem featuring a massive 550+ entry multi-domain dataset. This version introduces dynamic context-aware filtering, a refined soft dark slate UI, and a high-precision ranking engine.
@@ -135,7 +134,6 @@ Check the JSON size directly at:
 - **Systems**: "Distributed microservices scaling"
 - **Consumer**: "Gaming mechanical keyboard lux"
 
----
 
 ## 🛡️ Privacy & Logic
 - **Stateless**: All processing occurs in-memory.
