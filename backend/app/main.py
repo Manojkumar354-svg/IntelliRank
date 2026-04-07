@@ -28,8 +28,8 @@ app.include_router(api_router, prefix="/api")
 
 @app.get("/health")
 async def health_check():
-    from app.core.engine import search_engine
-    doc_count = len(search_engine.documents) if hasattr(search_engine, 'documents') else 0
+    from app.api.routes import engine
+    doc_count = len(engine.documents) if engine.documents else 0
     return {"status": "ok", "document_count": doc_count}
 
 @app.get("/")
