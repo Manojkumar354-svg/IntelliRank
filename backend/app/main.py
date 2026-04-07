@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import router as api_router
@@ -8,14 +9,15 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS configuration
+# CORS configuration - allow Vercel frontend + local dev
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://127.0.0.1:5173"
-    ],  # Explicitly allow frontend ports
-
+        "http://127.0.0.1:5173",
+        "https://*.vercel.app",
+    ],
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -26,7 +28,9 @@ app.include_router(api_router, prefix="/api")
 
 @app.get("/health")
 async def health_check():
-    return {"status": "ok"}
+    from app.core.engine import search_engine
+    doc_count = len(search_engine.documents) if hasattr(search_engine, 'documents') else 0
+    return {"status": "ok", "document_count": doc_count}
 
 @app.get("/")
 async def root():
